@@ -1,0 +1,45 @@
+.navbarItems {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(
+    rgba(220, 220, 220, 0.75),
+    rgba(220, 220, 220, 0.75)
+  );
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.navbarLogo {
+  color: var(--navbar-text-color);
+  justify-content: start;
+  cursor: pointer;
+  margin-left: 40px;
+}
+
+.navMenu {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 50px;
+  list-style: none;
+  text-align: right;
+  width: 70vw;
+  justify-content: end;
+}
+
+.navLinks {
+  color: var(--navbar-text-color);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.navLinks:hover {
+  background-color: grey;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+}

@@ -1,0 +1,13 @@
+p {
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.second {
+  background-color: var(--background);
+  color:var(--text-color);
+}
+
+h3 {
+  font-size: 3rem;
+}

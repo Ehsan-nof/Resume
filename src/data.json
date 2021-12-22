@@ -1,0 +1,70 @@
+{
+    "title": "Hello I'm Ehsan!",
+    "subtitle": "FrontEnd Dev | studing Computer engineering",
+    "links": {
+        "github": "https://github.com//Ehsan-nof",
+        "instgram": "https://www.instagram.com/ehsan.nof/"
+    },
+    "sections": [
+        {
+            "title": "About",
+            "items": [
+                {
+                    "type": "p",
+                    "content": "I love to learn."
+                },
+                {
+                    "type": "p",
+                    "content": "I beleive in self-learning."
+                },
+                {
+                    "type": "p",
+                    "content": "When my dev senses kick-in I build presumably awesome stuff. I stay close to the community and try to keep tabs with the pace at which the web is evolving. I also like to blog what I learn."
+                }
+            ]
+        },
+        {
+            "title": "Skills",
+            "items": [
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "images/react.png",
+                        "title": "React"
+                    }
+                },
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "images/javascript.png",
+                        "title": "Javascript"
+                    }
+                },
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "images/html.png",
+                        "title": "HTML"
+                    }
+                },
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "images/css.png",
+                        "title": "CSS"
+                    }
+                },
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "images/python.png",
+                        "title": "Python"
+                    }
+                }
+            ]
+        }
+    ],
+    "icons": {
+        "down": "images/down.png"
+    }
+}

@@ -1,0 +1,31 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+:root {
+  --background: #393e46;
+  --text-color: #eeeeee;
+  --navbar-text-color: #ffd369;
+  --card-color: #ffd369;
+}
+:root.dark {
+  --background: #323232;
+  --text-color: #eeeeee;
+  --navbar-text-color: #ffac41;
+  --card-color: #ffac41;
+}
+:root.blue {
+  --background: #142850;
+  --text-color: #8fd6e1;
+  --navbar-text-color: #8fd6e1;
+  --card-color: #0c7b93;
+}
+:root.purple {
+  --background: #200f21;
+  --text-color: #f638dc;
+  --navbar-text-color: #f638dc;
+  --card-color: #5a3d5c;
+}
